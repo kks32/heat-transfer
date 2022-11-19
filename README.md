@@ -1,5 +1,7 @@
 # Heat transfer around a cable
-Using any language of your choice, develop a code to solve the heat transfer around a cable. Solve the governing equation using a **forward-difference in time and fourth-order central-difference in space**. Plot the heat distribution around the cable. 
+Using any language of your choice, develop a code to solve the heat transfer around a cable using Finite Difference. Solve the governing equation using a **forward-difference in time and second-order central-difference in space**. Plot the heat distribution around the cable. 
+
+This task should not take more than a few days to complete.
 
 ## Governing equation
 The heat transfer in the presence of a constant source $Q_{in}$ under steady-state is: 
@@ -35,7 +37,6 @@ thermal_conductivity = 1.602
 
 # Thermal diffusivity, m2.s-1
 alphaSoil =  1.97e-7  # m^2/s
-alphaSteel = 2.3e-5   # m^2/s
 
 # Porosity
 n = 0.45
@@ -60,11 +61,13 @@ permeability = 1e-12 # m^2
 
 1. Show the discretized form of the heat transfer PDE using central difference. 
 
-2. Plot the heat transfer for three different permeability $k = 1e-8 m^2$, $1e-12 m^2$, and $1e-15 m^2$.
+2. Plot the heat transfer for three different permeability $k = 1e-8 m^2$, $1e-12 m^2$, and $1e-15 m^2$. No need to change porosity, while altering the permeability. Comment on why and how permeability will influence the porosity.
 
 3. Code must be shared via Email or GitHub or Google Colab.
 
 # Evaluation criteria
-1. Correctness of the derivation.
+1. Correctness of the finite difference derivation.
+
 2. Heat transfer distribution around the cable for different permeabilities.
+
 3. Quality and readability of heat transfer code.

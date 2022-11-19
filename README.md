@@ -1,7 +1,9 @@
 # Heat transfer around a cable
 Using any language of your choice, develop a code to solve the heat transfer around a cable using Finite Difference. Solve the governing equation using a **forward-difference in time and second-order central-difference in space**. Plot the heat distribution around the cable. 
 
-This task should not take more than a few days to complete.
+This task should not take more than a few days to complete. I expect and encourage you to ask any questions you may have or arise during this project. it is important that you reach out to me if you have any difficulties, because this reflects how we will work together during your PhD. 
+
+**The goal of the project is not to test your existing knowledge, but to see how well we can work together and how you learn new concepts. Remember this is not an exam, please interact with Dr. Kumar as you explore this problem and attempt to solve it.**
 
 ## Governing equation
 The heat transfer in the presence of a constant source $Q_{in}$ under steady-state is: 
@@ -65,9 +67,22 @@ permeability = 1e-12 # m^2
 
 3. Code must be shared via Email or GitHub or Google Colab.
 
+4. Explain how you will validate your code. 
+
 # Evaluation criteria
-1. Correctness of the finite difference derivation.
 
-2. Heat transfer distribution around the cable for different permeabilities.
+1. Communication with Dr. Kumar during the task. This is the highest priority. You will be rated highly if you ask me questions, even simple ones like how to discretize the PDE, instead of sending me a completed code without talking to me once. 
 
-3. Quality and readability of heat transfer code.
+2. Correctness of the finite difference derivation.
+
+3. Heat transfer distribution around the cable for different permeabilities.
+
+4. Quality and readability of heat transfer code.
+
+# Useful references
+
+* Emeana, C. J., Hughes, T. J., Dix, J. K., Gernon, T. M., Henstock, T. J., Thompson, C. E. L., & Pilgrim, J. A. (2016). The thermal regime around buried submarine high-voltage cables. Geophysical Journal International, 206(2), 1051-1064.
+
+* Hughes, T. J., Henstock, T. J., Pilgrim, J. A., Dix, J. K., Gernon, T. M., & Thompson, C. E. (2015). Effect of sediment properties on the thermal performance of submarine HV cables. IEEE Transactions on Power Delivery, 30(6), 2443-2450.
+
+* Kumar, K., El Mohtar, C., & Gilbert, R. (2022). Conductive and convective heat transfer in inductive heating of subsea buried pipelines. Journal of Pipeline Systems Engineering and Practice, 13(4), 04022031. https://arxiv.org/abs/2112.11826

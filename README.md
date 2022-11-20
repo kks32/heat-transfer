@@ -10,7 +10,7 @@ The heat transfer in the presence of a constant source $Q_{in}$ under steady-sta
 
 $$Q_{in} = -  \alpha \nabla^2 T + \mathbf{u} \cdot \nabla T$$
 
-where, $T$ is Temperature (C),  $\alpha$ is the coefficient that relates thermal conductivity, specific heat and density of the material, and $\mathbf{u}$ is the fluid velocity (m/s). The right hand side of the heat equation represents the conductive ($- \nabla^2 T$) and convective ($\mathbf{u} \cdot \nabla T$) heat transfer mechanisms. 
+where, $T$ is Temperature (C),  $\alpha$ is the coefficient that relates thermal conductivity, specific heat and density of the material, and $\mathbf{u}$ is the fluid velocity (m/s). The right hand side of the heat equation represents the conductive ($- \alpha \nabla^2 T$) and convective ($\mathbf{u} \cdot \nabla T$) heat transfer mechanisms. 
 
 We assume the soil is fully saturated, i.e., the voids in the soil are filled with water. Darcy's law describes the fluid flow through the porous media:
 

@@ -8,15 +8,15 @@ This task should not take more than a few days to complete. I expect and encoura
 ## Governing equation
 The heat transfer in the presence of a constant source $Q_{in}$ under steady-state is: 
 
-$$Q_{in} = - \nabla^2 T + \alpha \mathbf{u} \cdot \nabla T$$
+$$Q_{in} = -  \alpha \nabla^2 T + \mathbf{u} \cdot \nabla T$$
 
-where, $T$ is Temperature (C), $\rho_f$ is the density of fluid (kg/m^3), and $\mathbf{u}$ is the fluid velocity (m/s). The right hand side of the heat equation represents the conductive ($- \nabla^2 T$) and convective ($ \rho_f c_{p_f} \mathbf{u} \cdot \nabla T$) heat transfer mechanisms. 
+where, $T$ is Temperature (C),  $\alpha$ is the coefficient that relates thermal conductivity, specific heat and density of the material, and $\mathbf{u}$ is the fluid velocity (m/s). The right hand side of the heat equation represents the conductive ($- \nabla^2 T$) and convective ($\mathbf{u} \cdot \nabla T$) heat transfer mechanisms. 
 
 We assume the soil is fully saturated, i.e., the voids in the soil are filled with water. Darcy's law describes the fluid flow through the porous media:
 
 $$u = - \frac{1}{n \mu} k \left(g \rho_{f_0} \left(1 - \beta (T - T_0)\right)\right)$$
 
-where $u$ is the fluid flow velocity (m/s), $n$ is the porosity, $\mu$ dynamic viscosity (Pa.s), $k$ is the intrinsic permeability (m^2), $p$ is pressure (Pa), $\rho_{f_0}$ is the reference fluid density at ambient temperature, and $\beta$ is the volumetric coefficient of thermal expansion (1/K). 
+where $\rho_f$ is the density of fluid (kg/m^3), $u$ is the fluid flow velocity (m/s), $n$ is the porosity, $\mu$ dynamic viscosity (Pa.s), $k$ is the intrinsic permeability (m^2), $p$ is pressure (Pa), $\rho_{f_0}$ is the reference fluid density at ambient temperature, and $\beta$ is the volumetric coefficient of thermal expansion (1/K). 
 
 In this problem, $Q_{in} = 0$. The source of heat is from the cable heated to a specific temperature below.
 

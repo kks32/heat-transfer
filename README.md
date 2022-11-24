@@ -67,6 +67,8 @@ permeability = 1e-12 # m^2
 
 4. Explain how you will validate your code. 
 
+5. Write a short 1 page document describing your result and the biggest technical challenge you faced. 
+
 # Evaluation criteria
 
 1. Communication with Dr. Kumar during the task. This is the highest priority. You will be rated highly if you ask me questions, even simple ones like how to discretize the PDE, instead of sending me a completed code without talking to me once. 
@@ -76,6 +78,16 @@ permeability = 1e-12 # m^2
 3. Heat transfer distribution around the cable for different permeabilities.
 
 4. Quality and readability of heat transfer code.
+
+# Milestones
+
+These are essential milestones for communication with Dr. Krishna Kumar. This requires you to communicate at least three times during the task.
+
+1. Before start of the project for any preliminary questions and directions.
+
+2. Send completed derivation of finite difference approximation of the transient heat transfer. Discuss any questions you may have regarding your implementation.
+
+3. Completed code, validation and report.
 
 # Useful references
 
